@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>port</title>
+<style id="applicationStylesheet" type="text/css">
+	.mediaViewInfo {
+		--web-view-name: port;
+		--web-view-id: port;
+		--web-scale-on-resize: true;
+		--web-enable-deep-linking: true;
+	}
+	:root {
+		--web-view-ids: port;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#port {
+		position: absolute;
+		width: 1920px;
+		height: 1085px;
+		background-color: rgba(0,0,0,1);
+		overflow: hidden;
+		--web-view-name: port;
+		--web-view-id: port;
+		--web-scale-on-resize: true;
+		--web-enable-deep-linking: true;
+	}
+	#Rectangle_4 {
+		fill: transparent;
+		stroke: rgba(231,231,231,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_4 {
+		position: absolute;
+		overflow: visible;
+		width: 322px;
+		height: 220px;
+		left: 993px;
+		top: 477px;
+	}
+	#Rectangle_5 {
+		fill: transparent;
+		stroke: rgba(231,231,231,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_5 {
+		position: absolute;
+		overflow: visible;
+		width: 315px;
+		height: 224px;
+		left: 649px;
+		top: 762px;
+	}
+	#Rectangle_6 {
+		fill: transparent;
+		stroke: rgba(231,231,231,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_6 {
+		position: absolute;
+		overflow: visible;
+		width: 322px;
+		height: 224px;
+		left: 993px;
+		top: 762px;
+	}
+	#SHIVA_KAITELL_ {
+		left: 766px;
+		top: 102px;
+		position: absolute;
+		overflow: visible;
+		width: 393px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Presicav;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 42px;
+		color: rgba(219,18,41,1);
+	}
+	#Component_4__2 {
+		position: absolute;
+		width: 296.213px;
+		height: 459.879px;
+		left: 167.787px;
+		top: 294px;
+		overflow: visible;
+	}
+	#Path_1_ {
+		fill: rgba(0,0,0,0);
+		stroke: rgba(231,231,231,1);
+		stroke-width: 5px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Path_1_ {
+		overflow: visible;
+		position: absolute;
+		width: 5.713px;
+		height: 459.887px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Component_3__1_ {
+		position: absolute;
+		width: 293px;
+		height: 52px;
+		left: 3.213px;
+		top: 130px;
+		overflow: visible;
+	}
+	#Rectangle_7_ba {
+		fill: rgba(219,18,41,1);
+		stroke: rgba(219,18,41,0.502);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_7_ba {
+		position: absolute;
+		overflow: visible;
+		width: 293px;
+		height: 52px;
+		left: 0px;
+		top: 0px;
+	}
+	#Component_2__1_bb {
+		position: absolute;
+		width: 187px;
+		height: 33px;
+		left: 56.213px;
+		top: 10px;
+		overflow: visible;
+	}
+	#ABOUT_ME_bc {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 188px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Presicav;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 28px;
+		color: rgba(231,231,231,1);
+	}
+	#MY_PORTFOLIO__bd {
+		left: 16.213px;
+		top: 139px;
+		position: absolute;
+		overflow: visible;
+		width: 269px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Presicav;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 28px;
+		color: rgba(0,0,0,1);
+	}
+	#ESPORTS__be {
+		left: 56.213px;
+		top: 280px;
+		position: absolute;
+		overflow: visible;
+		width: 171px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Presicav;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 28px;
+		color: rgba(231,231,231,1);
+	}
+	#social_bf {
+		position: absolute;
+		width: 298px;
+		height: 48px;
+		left: 811px;
+		top: 202px;
+		overflow: visible;
+	}
+	#R_1_bg {
+		position: absolute;
+		width: 46px;
+		height: 39px;
+		left: 0px;
+		top: 4px;
+		overflow: visible;
+	}
+	#github-grey_bh {
+		position: absolute;
+		width: 48px;
+		height: 48px;
+		left: 88px;
+		top: 0px;
+		overflow: visible;
+	}
+	#instagram-logo-grey-3_bi {
+		position: absolute;
+		width: 46px;
+		height: 48px;
+		left: 172px;
+		top: 0px;
+		overflow: visible;
+	}
+	#R_2_bj {
+		position: absolute;
+		width: 46px;
+		height: 46px;
+		left: 252px;
+		top: 0px;
+		overflow: visible;
+	}
+	#CONTACT__bk {
+		left: 222px;
+		top: 697px;
+		position: absolute;
+		overflow: visible;
+		width: 168px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Presicav;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 28px;
+		color: rgba(231,231,231,1);
+	}
+	#buttons {
+		position: absolute;
+		width: 547px;
+		height: 154px;
+		left: 709px;
+		top: 285px;
+		overflow: visible;
+	}
+	#Ellipse_1 {
+		fill: rgba(219,18,41,1);
+		stroke: rgba(219,18,41,0.502);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ellipse_1 {
+		position: absolute;
+		overflow: visible;
+		width: 150px;
+		height: 150px;
+		left: 0px;
+		top: 0px;
+	}
+	#UXUI {
+		left: 39px;
+		top: 64px;
+		position: absolute;
+		overflow: visible;
+		width: 75px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Presicav;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 21px;
+		color: rgba(0,0,0,1);
+	}
+	#Ellipse_2 {
+		fill: rgba(231,231,231,1);
+		stroke: rgba(219,18,41,0.502);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ellipse_2 {
+		position: absolute;
+		overflow: visible;
+		width: 150px;
+		height: 150px;
+		left: 195px;
+		top: 4px;
+	}
+	#SOFTWARE {
+		left: 195px;
+		top: 66px;
+		position: absolute;
+		overflow: visible;
+		width: 151px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Presicav;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 21px;
+		color: rgba(0,0,0,1);
+	}
+	#Ellipse_3 {
+		fill: rgba(231,231,231,1);
+		stroke: rgba(219,18,41,0.502);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ellipse_3 {
+		position: absolute;
+		overflow: visible;
+		width: 150px;
+		height: 150px;
+		left: 397px;
+		top: 4px;
+	}
+	#VISUAL_ART {
+		left: 423px;
+		top: 53px;
+		position: absolute;
+		overflow: visible;
+		width: 99px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Presicav;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 21px;
+		color: rgba(0,0,0,1);
+	}
+	#Rectangle_9_bs {
+		fill: rgba(219,18,41,1);
+	}
+	.Rectangle_9_bs {
+		mix-blend-mode: difference;
+		position: absolute;
+		overflow: visible;
+		width: 1978px;
+		height: 102px;
+		left: -18px;
+		top: 1065px;
+	}
+	#Component_5__1 {
+		position: absolute;
+		width: 322px;
+		height: 220px;
+		left: 650px;
+		top: 474px;
+		overflow: visible;
+	}
+	#Rectangle_14 {
+		fill: transparent;
+		stroke: rgba(231,231,231,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_14 {
+		position: absolute;
+		overflow: visible;
+		width: 322px;
+		height: 220px;
+		left: 0px;
+		top: 0px;
+	}
+	#cfae_logo {
+		position: absolute;
+		width: 262px;
+		height: 110px;
+		left: 30px;
+		top: 55px;
+		overflow: visible;
+	}
+	#Department_Of_Energy-logo-B1A2 {
+		position: absolute;
+		width: 210px;
+		height: 210px;
+		left: 1047px;
+		top: 482px;
+		overflow: visible;
+	}
+	#AllHands {
+		left: 728px;
+		top: 842px;
+		position: absolute;
+		overflow: visible;
+		width: 158px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Inter;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 36px;
+		color: rgba(255,255,255,1);
+	}
+	#nexi {
+		position: absolute;
+		width: 453px;
+		height: 204px;
+		left: 925px;
+		top: 782px;
+		overflow: visible;
+	}
+</style>
+
+
+</script>
+</head>
+<body>
+<div id="port">
+	<svg class="Rectangle_4">
+		<rect id="Rectangle_4" rx="0" ry="0" x="0" y="0" width="322" height="220">
+		</rect>
+	</svg>
+	<svg class="Rectangle_5">
+		<rect id="Rectangle_5" rx="0" ry="0" x="0" y="0" width="315" height="224">
+		</rect>
+	</svg>
+	<svg class="Rectangle_6">
+		<rect id="Rectangle_6" rx="0" ry="0" x="0" y="0" width="322" height="224">
+		</rect>
+	</svg>
+	<div id="SHIVA_KAITELL_">
+		<span>SHIVA KAITELL</span>
+	</div>
+	<div id="Component_4__2" class="Component_4___2">
+		<svg class="Path_1_" viewBox="0.287 0 0.713 459.879">
+			<path id="Path_1_" d="M 1 0 L 0.2866363525390625 459.8788146972656">
+			</path>
+		</svg>
+		<div id="Component_3__1_" class="Component_3___1">
+			<svg class="Rectangle_7_ba">
+				<rect id="Rectangle_7_ba" rx="0" ry="0" x="0" y="0" width="293" height="52">
+				</rect>
+			</svg>
+		</div>
+		<div id="Component_2__1_bb" class="Component_2___1">
+			<div id="ABOUT_ME_bc" button onclick="location.href='C:users/nmska/onedrive/documents/portfoliov1/portfv1.html'">
+				<span>ABOUT ME</span>
+			</div>
+		</div>
+		<div id="MY_PORTFOLIO__bd"> 
+			<span>MY PORTFOLIO</span><br/>
+		</div>
+		<div id="ESPORTS__be">
+			<span>ESPORTS</span><br/>
+		</div>
+	</div>
+	<div id="social_bf">
+		<img id="R_1_bg" src="R_1_bg.png" >
+			
+		<img id="github-grey_bh"  src="github-grey_bh.png">
+			
+		<img id="instagram-logo-grey-3_bi"  src= "instagram-logo-grey-3_bi.png">
+		<img id="R_2_bj" src="R_2_bj.png" >
+			
+	</div>
+	<div id="CONTACT__bk">
+		<span>CONTACT</span><br/>
+	</div>
+	<div id="buttons">
+		<svg class="Ellipse_1">
+			<ellipse id="Ellipse_1" rx="75" ry="75" cx="75" cy="75">
+			</ellipse>
+		</svg>
+		<div id="UXUI">
+			<span>UX/UI</span>
+		</div>
+		<svg class="Ellipse_2"> 
+			<ellipse id="Ellipse_2" rx="75" ry="75" cx="75" cy="75">
+			</ellipse>
+		</svg>
+		<div id="SOFTWARE">
+			<span>SOFTWARE</span>
+		</div>
+		<svg class="Ellipse_3">
+			<ellipse id="Ellipse_3" rx="75" ry="75" cx="75" cy="75">
+			</ellipse>
+		</svg>
+		<div id="VISUAL_ART">
+			<span>VISUAL<br/>ART</span>
+		</div>
+	</div>
+	<svg class="Rectangle_9_bs">
+		<rect id="Rectangle_9_bs" rx="0" ry="0" x="0" y="0" width="1978" height="102">
+		</rect>
+	</svg>
+	<div id="Component_5__1" class="Component_5___1">
+		<svg class="Rectangle_14">
+			<rect id="Rectangle_14" rx="0" ry="0" x="0" y="0" width="322" height="220">
+			</rect>
+		</svg>
+		<img id="cfae_logo" src="cfae_logo.png" >
+			
+	</div>
+	<img id="Department_Of_Energy-logo-B1A2" src="Department_Of_Energy-logo-B1A2.png" >
+		
+	<div id="AllHands">
+		<span>AllHands</span>
+	</div>
+	<img id="nexi" src="nexi.png" >
+		
+</div>
+</body>
+</html>

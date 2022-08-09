@@ -1,0 +1,321 @@
+.mediaViewInfo {
+	--web-view-name: home/abt;
+	--web-view-id: homeabt;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: homeabt;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#homeabt {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	background-color: rgba(0,0,0,1);
+	overflow: hidden;
+	--web-view-name: home/abt;
+	--web-view-id: homeabt;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+#text_gaslighting_others_into_t {
+	left: 652px;
+	top: 299px;
+	position: absolute;
+	overflow: visible;
+	width: 707px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: PresicavRG;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	color: rgba(231,231,231,1);
+}
+#v {
+	left: 1131px;
+	top: 1075px;
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Presicav;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	color: rgba(112,112,112,1);
+}
+#Rectangle_9 {
+	fill: rgba(219,18,41,1);
+}
+.Rectangle_9 {
+	mix-blend-mode: difference;
+	position: absolute;
+	overflow: visible;
+	width: 1978px;
+	height: 102px;
+	left: -18px;
+	top: 1065px;
+}
+#SHIVA_KAITELL {
+	left: 710px;
+	top: 79px;
+	position: absolute;
+	overflow: visible;
+	width: 614px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Presicav;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 80px;
+	color: rgba(219,18,41,1);
+	letter-spacing: -1.4px;
+}
+#social {
+	position: absolute;
+	width: 298px;
+	height: 48px;
+	left: 878px;
+	top: 210px;
+	overflow: visible;
+}
+#R_1 {
+	position: absolute;
+	width: 46px;
+	height: 39px;
+	left: 0px;
+	top: 4px;
+	overflow: visible;
+}
+#github-grey {
+	position: absolute;
+	width: 48px;
+	height: 48px;
+	left: 88px;
+	top: 0px;
+	overflow: visible;
+}
+#instagram-logo-grey-3 {
+	position: absolute;
+	width: 46px;
+	height: 48px;
+	left: 172px;
+	top: 0px;
+	overflow: visible;
+}
+#R_2 {
+	position: absolute;
+	width: 46px;
+	height: 46px;
+	left: 252px;
+	top: 0px;
+	overflow: visible;
+}
+#Component_4__7 {
+	position: absolute;
+	width: 296.713px;
+	height: 459.879px;
+	left: 90.787px;
+	top: 310.061px;
+	overflow: visible;
+}
+#Path_1 {
+	fill: rgba(0,0,0,0);
+	stroke: rgba(231,231,231,1);
+	stroke-width: 5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Path_1 {
+	overflow: visible;
+	position: absolute;
+	width: 5.713px;
+	height: 459.887px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Component_3__1 {
+	position: absolute;
+	width: 293px;
+	height: 52px;
+	left: 3.713px;
+	top: 0px;
+	overflow: visible;
+}
+#Rectangle_7 {
+	fill: rgba(219,18,41,1);
+	stroke: rgba(219,18,41,0.502);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_7 {
+	position: absolute;
+	overflow: visible;
+	width: 293px;
+	height: 52px;
+	left: 0px;
+	top: 0px;
+}
+#Component_2__1 {
+	position: absolute;
+	width: 187px;
+	height: 33px;
+	left: 56.213px;
+	top: 10px;
+	overflow: visible;
+}
+#ABOUT_ME {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 188px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Presicav;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 28px;
+	color: rgba(0,0,0,1);
+}
+#MY_PORTFOLIO_ {
+	left: 16.213px;
+	top: 139px;
+	position: absolute;
+	overflow: visible;
+	width: 269px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Presicav;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 28px;
+	color: rgba(231,231,231,1);
+}
+#ESPORTS_ {
+	left: 56.213px;
+	top: 280px;
+	position: absolute;
+	overflow: visible;
+	width: 171px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Presicav;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 28px;
+	color: rgba(231,231,231,1);
+}
+#CONTACT_ {
+	left: 155.393px;
+	top: 703.939px;
+	position: absolute;
+	overflow: visible;
+	width: 168px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Presicav;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 28px;
+	color: rgba(231,231,231,1);
+}
+#Rectangle_17 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_17 {
+	position: absolute;
+	overflow: visible;
+	width: 37px;
+	height: 35px;
+	left: 404px;
+	top: 446.5px;
+}
+#Rectangle_20 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_20 {
+	position: absolute;
+	overflow: visible;
+	width: 37px;
+	height: 35px;
+	left: 456px;
+	top: 446.5px;
+}
+#Rectangle_25 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_25 {
+	position: absolute;
+	overflow: visible;
+	width: 37px;
+	height: 35px;
+	left: 508px;
+	top: 446.5px;
+}
+#Rectangle_26 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_26 {
+	position: absolute;
+	overflow: visible;
+	width: 37px;
+	height: 35px;
+	left: 404px;
+	top: 592.5px;
+}
+#Rectangle_27 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_27 {
+	position: absolute;
+	overflow: visible;
+	width: 37px;
+	height: 35px;
+	left: 456px;
+	top: 592.5px;
+}

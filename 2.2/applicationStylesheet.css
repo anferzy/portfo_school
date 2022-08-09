@@ -1,0 +1,551 @@
+.mediaViewInfo {
+	--web-view-name: port -hover 1;
+	--web-view-id: port_-hover_1;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: port_-hover_1;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#port_-hover_1 {
+	position: absolute;
+	width: 1920px;
+	height: 1085px;
+	background-color: rgba(0,0,0,1);
+	overflow: hidden;
+	--web-view-name: port -hover 1;
+	--web-view-id: port_-hover_1;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#Rectangle_4_f {
+	fill: transparent;
+	stroke: rgba(231,231,231,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_4_f {
+	position: absolute;
+	overflow: visible;
+	width: 322px;
+	height: 220px;
+	left: 993px;
+	top: 477px;
+}
+#Rectangle_5_f {
+	fill: transparent;
+	stroke: rgba(231,231,231,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_5_f {
+	position: absolute;
+	overflow: visible;
+	width: 315px;
+	height: 224px;
+	left: 649px;
+	top: 762px;
+}
+#Rectangle_6_ga {
+	fill: transparent;
+	stroke: rgba(231,231,231,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_6_ga {
+	position: absolute;
+	overflow: visible;
+	width: 322px;
+	height: 224px;
+	left: 993px;
+	top: 762px;
+}
+#Rectangle_9_f {
+	fill: rgba(219,18,41,1);
+}
+.Rectangle_9_f {
+	mix-blend-mode: difference;
+	position: absolute;
+	overflow: visible;
+	width: 1978px;
+	height: 102px;
+	left: -18px;
+	top: 1065px;
+}
+#Component_5__2 {
+	position: absolute;
+	width: 322px;
+	height: 220px;
+	left: 650px;
+	top: 474px;
+	overflow: visible;
+}
+#Rectangle_14_gb {
+	fill: transparent;
+	stroke: rgba(231,231,231,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_14_gb {
+	position: absolute;
+	overflow: visible;
+	width: 322px;
+	height: 220px;
+	left: 0px;
+	top: 0px;
+}
+#cfae_logo_gc {
+	position: absolute;
+	width: 262px;
+	height: 110px;
+	left: 30px;
+	top: 55px;
+	overflow: visible;
+}
+#Department_Of_Energy-logo-B1A2_gd {
+	position: absolute;
+	width: 210px;
+	height: 210px;
+	left: 1047px;
+	top: 482px;
+	overflow: visible;
+}
+#AllHands_ge {
+	left: 728px;
+	top: 842px;
+	position: absolute;
+	overflow: visible;
+	width: 158px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	color: rgba(255,255,255,1);
+}
+#nexi_gf {
+	position: absolute;
+	width: 453px;
+	height: 204px;
+	left: 925px;
+	top: 782px;
+	overflow: visible;
+}
+#Component_6__1 {
+	position: absolute;
+	width: 322px;
+	height: 199px;
+	left: 650px;
+	top: 493px;
+	overflow: visible;
+	transition: all 0.30000001192092896s ease-in;
+	--web-animation: fadein 0.30000001192092896s ease-in;
+	--web-action-type: page;
+	--web-action-target: port.html;
+	cursor: pointer;
+}
+#Rectangle_15 {
+	fill: rgba(219,18,41,0.702);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_15 {
+	position: absolute;
+	overflow: visible;
+	width: 322px;
+	height: 199px;
+	left: 0px;
+	top: 0px;
+}
+#Modernization_of_an__outdated_ {
+	left: 660px;
+	top: 507px;
+	position: absolute;
+	overflow: visible;
+	width: 277px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Presicav;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(231,231,231,1);
+}
+#social_gj {
+	position: absolute;
+	width: 298px;
+	height: 48px;
+	left: 878px;
+	top: 210px;
+	overflow: visible;
+}
+#R_1_gk {
+	position: absolute;
+	width: 46px;
+	height: 39px;
+	left: 0px;
+	top: 4px;
+	overflow: visible;
+}
+#github-grey_gl {
+	position: absolute;
+	width: 48px;
+	height: 48px;
+	left: 88px;
+	top: 0px;
+	overflow: visible;
+}
+#instagram-logo-grey-3_gm {
+	position: absolute;
+	width: 46px;
+	height: 48px;
+	left: 172px;
+	top: 0px;
+	overflow: visible;
+}
+#R_2_gn {
+	position: absolute;
+	width: 46px;
+	height: 46px;
+	left: 252px;
+	top: 0px;
+	overflow: visible;
+}
+#SHIVA_KAITELL_go {
+	left: 710px;
+	top: 79px;
+	position: absolute;
+	overflow: visible;
+	width: 614px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Presicav;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 80px;
+	color: rgba(219,18,41,1);
+	letter-spacing: -1.4px;
+}
+#nav_bar_gp {
+	position: absolute;
+	width: 296.213px;
+	height: 459.879px;
+	left: 59.787px;
+	top: 312.561px;
+	overflow: visible;
+}
+#Path_1_gq {
+	fill: rgba(0,0,0,0);
+	stroke: rgba(231,231,231,1);
+	stroke-width: 5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Path_1_gq {
+	overflow: visible;
+	position: absolute;
+	width: 5.713px;
+	height: 459.887px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Component_3__1_gr {
+	position: absolute;
+	width: 293px;
+	height: 52px;
+	left: 3.213px;
+	top: 130px;
+	overflow: visible;
+}
+#Rectangle_7_gs {
+	fill: rgba(219,18,41,1);
+	stroke: rgba(219,18,41,0.502);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_7_gs {
+	position: absolute;
+	overflow: visible;
+	width: 293px;
+	height: 52px;
+	left: 0px;
+	top: 0px;
+}
+#Component_2__1_gt {
+	position: absolute;
+	width: 187px;
+	height: 33px;
+	left: 56.213px;
+	top: 10px;
+	overflow: visible;
+}
+#ABOUT_ME_gu {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 188px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Presicav;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 28px;
+	color: rgba(231,231,231,1);
+}
+#MY_PORTFOLIO__gv {
+	left: 16.213px;
+	top: 139px;
+	position: absolute;
+	overflow: visible;
+	width: 269px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Presicav;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 28px;
+	color: rgba(0,0,0,1);
+}
+#ESPORTS__gw {
+	left: 56.213px;
+	top: 280px;
+	position: absolute;
+	overflow: visible;
+	width: 171px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Presicav;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 28px;
+	color: rgba(231,231,231,1);
+}
+#CONTACT__gx {
+	left: 124px;
+	top: 706.439px;
+	position: absolute;
+	overflow: visible;
+	width: 168px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Presicav;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 28px;
+	color: rgba(231,231,231,1);
+}
+#buttons_gy {
+	position: absolute;
+	width: 206px;
+	height: 167px;
+	left: 424px;
+	top: 443.439px;
+	overflow: visible;
+}
+#Rectangle_16_gz {
+	fill: rgba(219,18,41,1);
+	stroke: rgba(219,18,41,0.502);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_16_gz {
+	position: absolute;
+	overflow: visible;
+	width: 87px;
+	height: 53px;
+	left: 0px;
+	top: 0px;
+}
+#UXUI_g {
+	left: 7px;
+	top: 11px;
+	position: absolute;
+	overflow: visible;
+	width: 75px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Presicav;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 21px;
+	color: rgba(0,0,0,1);
+}
+#SOFTWARE_g {
+	left: 0px;
+	top: 84px;
+	position: absolute;
+	overflow: visible;
+	width: 151px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Presicav;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 21px;
+	color: rgba(231,231,231,1);
+	
+}:hover {background-color: rgba(219,18,41,1)
+}
+#PHOTOGRAPHY_g {
+	left: 0px;
+	top: 141px;
+	position: absolute;
+	overflow: visible;
+	width: 207px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Presicav;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 21px;
+	color: rgba(231,231,231,1);
+}
+#Line_1_g {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 3px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_1_g {
+	overflow: visible;
+	position: absolute;
+	width: 63.5px;
+	height: 3px;
+	left: 356px;
+	top: 469.939px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Line_2_g {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 3px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_2_g {
+	overflow: visible;
+	position: absolute;
+	width: 3px;
+	height: 131.5px;
+	left: 387.5px;
+	top: 469.939px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Line_3_g {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 3px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_3_g {
+	overflow: visible;
+	position: absolute;
+	width: 32px;
+	height: 3px;
+	left: 387.5px;
+	top: 542.939px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_2_g {
+	fill: rgba(0,0,0,0);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 3px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Path_2_g {
+	overflow: visible;
+	position: absolute;
+	width: 32px;
+	height: 3px;
+	left: 388.5px;
+	top: 599.939px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Rectangle_26_g {
+	fill: transparent;
+	stroke: rgba(112,112,112,0.502);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_26_g {
+	position: absolute;
+	overflow: visible;
+	width: 37px;
+	height: 35px;
+	left: 356px;
+	top: 593px;
+}
+#Rectangle_27_g {
+	fill: transparent;
+	stroke: rgba(112,112,112,0.502);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_27_g {
+	position: absolute;
+	overflow: visible;
+	width: 37px;
+	height: 35px;
+	left: 304px;
+	top: 593px;
+}
